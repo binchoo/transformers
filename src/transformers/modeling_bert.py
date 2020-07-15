@@ -79,6 +79,10 @@ BERT_PRETRAINED_MODEL_ARCHIVE_LIST = [
     "TurkuNLP/bert-base-finnish-cased-v1",
     "TurkuNLP/bert-base-finnish-uncased-v1",
     "wietsedv/bert-base-dutch-cased",
+    "nghuyong/ernie-1.0",
+    "nghuyong/ernie-2.0-en",
+    "nghuyong/ernie-2.0-large-en",
+    "nghuyong/ernie-tiny"
     # See all BERT models at https://huggingface.co/models?filter=bert
 ]
 

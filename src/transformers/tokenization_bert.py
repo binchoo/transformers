@@ -51,6 +51,10 @@ PRETRAINED_VOCAB_FILES_MAP = {
         "TurkuNLP/bert-base-finnish-cased-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/TurkuNLP/bert-base-finnish-cased-v1/vocab.txt",
         "TurkuNLP/bert-base-finnish-uncased-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/TurkuNLP/bert-base-finnish-uncased-v1/vocab.txt",
         "wietsedv/bert-base-dutch-cased": "https://s3.amazonaws.com/models.huggingface.co/bert/wietsedv/bert-base-dutch-cased/vocab.txt",
+        "nghuyong/ernie-1.0": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-1.0/vocab.txt",
+        "nghuyong/ernie-2.0-en": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-2.0-en/vocab.txt",
+        "nghuyong/ernie-2.0-large-en": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-2.0-large-en/vocab.txt",
+        "nghuyong/ernie-tiny": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-tiny/vocab.txt",
     }
 }
 
@@ -73,6 +77,10 @@ PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
     "TurkuNLP/bert-base-finnish-cased-v1": 512,
     "TurkuNLP/bert-base-finnish-uncased-v1": 512,
     "wietsedv/bert-base-dutch-cased": 512,
+    "nghuyong/ernie-1.0": 513,
+    "nghuyong/ernie-2.0-en": 512,
+    "nghuyong/ernie-2.0-large-en": 512,
+    "nghuyong/ernie-tiny": 600,
 }
 
 PRETRAINED_INIT_CONFIGURATION = {
@@ -94,6 +102,10 @@ PRETRAINED_INIT_CONFIGURATION = {
     "TurkuNLP/bert-base-finnish-cased-v1": {"do_lower_case": False},
     "TurkuNLP/bert-base-finnish-uncased-v1": {"do_lower_case": True},
     "wietsedv/bert-base-dutch-cased": {"do_lower_case": False},
+    "nghuyong/ernie-1.0":  {"do_lower_case": True},
+    "nghuyong/ernie-2.0-en":  {"do_lower_case": True},
+    "nghuyong/ernie-2.0-large-en":  {"do_lower_case": True},
+    "nghuyong/ernie-tiny":  {"do_lower_case": True},
 }
 
 

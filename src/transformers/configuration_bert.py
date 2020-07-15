@@ -46,6 +46,10 @@ BERT_PRETRAINED_CONFIG_ARCHIVE_MAP = {
     "TurkuNLP/bert-base-finnish-cased-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/TurkuNLP/bert-base-finnish-cased-v1/config.json",
     "TurkuNLP/bert-base-finnish-uncased-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/TurkuNLP/bert-base-finnish-uncased-v1/config.json",
     "wietsedv/bert-base-dutch-cased": "https://s3.amazonaws.com/models.huggingface.co/bert/wietsedv/bert-base-dutch-cased/config.json",
+    "nghuyong/ernie-1.0": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-1.0/config.json",
+    "nghuyong/ernie-2.0-en": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-2.0-en/config.json",
+    "nghuyong/ernie-2.0-large-en": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-2.0-large-en/config.json",
+    "nghuyong/ernie-tiny": "https://s3.amazonaws.com/models.huggingface.co/bert/nghuyong/ernie-tiny/config.json",
     # See all BERT models at https://huggingface.co/models?filter=bert
 }
 
